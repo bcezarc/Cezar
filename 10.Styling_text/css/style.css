@@ -2,16 +2,18 @@
     width: 500px;
 }
 h1{
+    height: 30px;
     background-color: #ACC4CE;
     color: white;
     font-size: 20px;
     shadow-color: #878787;
     text-align: center;
-    text-shadow: black;
+    text-shadow: 2px 2px 5px #800000;
 }
 h2 {
     color: #395075;
     letter-spacing: 10px;
+    font-style: italic;
 
 }
 p{

@@ -1,0 +1,24 @@
+body{
+    font-family: Courier New;
+}
+.message{
+    width: 500px;
+    height: 100px;
+    float: none;
+    padding: 0;
+    margin: auto;
+}
+p{
+    font-weight: 20px;
+    font-size: 20px;
+    font-family: "Bitstream Charter";
+    color: blueviolet;
+    padding: 0;
+    margin: 0;
+}
+.fieldset{
+    width: 480px;
+}
+
+
+

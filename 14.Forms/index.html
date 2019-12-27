@@ -3,8 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+
+<h1>Contact form:</h1>
+
+<form class="contactForm">
+    <p>Your Name:</p>
+    <input type="text" name="yourname" placeholder="Type your name..." >
+    <p>Your E-mail:</p>
+    <input type="email" name="email" placeholder="Type your e-mail..." >
+    <p>Your Message:</p>
+    <textarea class="message" name="message" placeholder="Please describe your question or message...">Your Message:</textarea>
+</form><br>
+
+
+<input type="submit" name="Submit" value="Send">
+
+
+<form>
+    <br><br><h1>Car Rental:</h1>
+    <fieldset class="fieldset">
+        <legend>Choose car class:</legend>
+
+        <input type="radio" id="mini" name="class">
+        <label for="kraken">mini</label><br/>
+
+        <input type="radio" id="economy" name="class">
+        <label for="sasquatch">economy</label><br/>
+
+        <input type="radio" id="compact" name="class">
+        <label for="mothman">compact</label><br>
+
+        <input type="radio" id="suv" name="class">
+        <label for="sasquatch">SUV</label><br/>
+
+        <input type="radio" id="van" name="class">
+        <label for="sasquatch">VAN</label><br/>
+    </fieldset>
+</form>
+
+<form class="rentCarForm">
+            <fieldset class="fieldset">
+            <legend>Choose optional equipment</legend>
+
+            <input type="radio" id="childSeat" name="equipmant">
+            <label for="kraken">Child seat</label><br/>
+
+            <input type="radio" id="gps" name="equipmant">
+            <label for="sasquatch">GPS</label><br/>
+
+            <input type="radio" id="dvdPlayer" name="equipmant">
+            <label for="sasquatch">DVD Player</label><br/>
+
+    </fieldset>
+</form>
+<form>
+    Rental start date<input type="date" name="date"><br>
+    Number of days<input type="number" name="days"><br>
+    Your passwrd<input type="password" name="password"><br><br>
+    <input type="submit" name="Submit" value="ORDER NOW!">
+</form>
 </body>
 </html>

@@ -1,0 +1,19 @@
+
+.squareList{
+    list-style-type: square;
+    display: table;
+}
+.menuList {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 20px;
+
+}
+.line, a{
+    text-decoration: none;
+    display: inline-block;
+    text-color: #116493;
+    padding: 20px;
+    float: left;
+}

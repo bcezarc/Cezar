@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+
+
+.popup{
+
+    width: 400px;
+    height: 100px;
+    background-color: beige;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow:  0px 0px 5px 5px RGBa(0,0,0,0.3);
+    margin: auto;
+
+
+}
+
+.ellipse{
+    width: 180px;
+    height: 100px;
+    background-color: lime;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.lime{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    border-radius: 0% 20% 0% 20%;
+    margin: auto;
+
+}
+
+
+
