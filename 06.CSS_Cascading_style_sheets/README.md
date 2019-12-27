@@ -14,7 +14,7 @@ In **css** catalog create a **style.css** file. In this file, set a blue backgro
 #### 2. INTERNAL STYLE SHEET, pink background
 Add internal styles to the **head** section of the **html** file. There you should set a pink background for the **body**.
 
-#### 3. INLINE STYLE, green background
+#### 3. INLINE STYLE, green backgroundw
 In the **html** file, add **style** attribute to the **body** tag. Set the background to green.
 
 ---

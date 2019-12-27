@@ -1,9 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Task 2</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+<h1>This page is with sweets </h1>
+<p>You can read about it! </p><br><br>
+<li>Cupcake ipsum dolor sit amet tart halvah powder. Soufflé sugar plum muffin. Danish wafer brownie pudding topping oat cake muffin. Soufflé croissant liquorice cotton candy wafer biscuit fruitcake tart gummi bears.
+   Donut jelly beans danish tiramisu cake soufflé jelly marshmallow jelly.<span id="dots">...</span> <span id="more"> Jelly cupcake brownie liquorice croissant powder liquorice. Tootsie roll chocolate bar cupcake cookie topping jelly liquorice jelly-o.
+    Candy fruitcake chupa chups candy canes dragée pie sugar plum. Chocolate bar biscuit brownie sweet roll ice cream. Tootsie roll cake wafer soufflé caramels jelly candy canes danish. Fruitcake halvah gummi bears.
+    Chupa chups dragée sweet roll sweet roll. Brownie chocolate bar bonbon dragée icing tootsie roll. Toffee tootsie roll apple pie tiramisu sweet.
+    Donut topping gummies sesame snaps. Cheesecake tart gingerbread soufflé cake. Jelly beans wafer macaroon.</span></li>
+<button type="button" id="read" onclick="read()">Read more... </button><br><br>
+
+
+<script type="text/javascript">
+    var i=0;
+    function read() {
+        if (!i){
+            document.getElementById("more").style.
+                display = "inline";
+            document.getElementById("dots").style.
+                display = "none";
+            document.getElementById("read").innerHTML="Read less";
+            i=1;
+        }
+        else{
+            document.getElementById("more").style.
+                display = "none";
+            document.getElementById("dots").style.
+                display = "inline";
+            document.getElementById("read").innerHTML="Read more";
+            i=0;
+
+
+        }
+
+    }
+</script>
+<ln>Updated 16.12.2019</ln><br> <br>
+<p>Choose your favorite sweets</p>
+<ul class="p">
+    <li>Cupcack</li>
+    <li>Chocolate</li>
+    <li>Lollipop</li>
+    <li>Gummies</li>
+    <li>Croissant</li>
+</ul>
+<p>Structure in our company</p>
+<ol>
+    <li>Jhon Sweet, Owner</li><ul><li>All things related of doing bussines.</ul></li>
+    <li>Madlaine Kwalsky, Marketing</li><ul><li>All things related with marketing.</ul></li>
+    <li>Paul Markov, Sales</li><ul><li>Meet with clients.</ul></li>
+    <li>Grandma Basia, Cook & Master of Design.</li><ul><li>Cooking. </ul></li>
+    <ul><li>Prepare new recipies. </ul></li>
+</ol>
 </body>
 </html>

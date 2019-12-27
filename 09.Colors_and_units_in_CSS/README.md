@@ -9,7 +9,7 @@
 
 2. Create a **p** paragraph with the following text: "CSS is wonderful". Set a different color for each word using predefined names (e.g. red, green, darkkhaki). Each word can be in a separate span element.
 
-3. Create a **div** element with the ``colorUnits`` class and 3 paragraphs within it (**p** elements). Enter some text in the paragraphs, give each one a background color written in another way (hexadecimal, RGBa and HSL).
+3. Create a **div** element with the ``colorUnits`` class and 3 paragr  aphs within it (**p** elements). Enter some text in the paragraphs, give each one a background color written in another way (hexadecimal, RGBa and HSL).
 
 4. Create a **div** element with the ```container``` class. Create 2 **p** paragraphs within it, filled with any text you want. In CSS, set any background color for the entire container and set width to 200px.
 
@@ -20,3 +20,4 @@
 
 
 **To collect colors (in any notation) use this page: [Color-hex](https://www.color-hex.com/).**
+        

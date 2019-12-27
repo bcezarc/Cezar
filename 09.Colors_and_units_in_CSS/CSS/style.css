@@ -1,0 +1,36 @@
+#span{
+    color: #AF55B7;
+}
+#css{
+    color: yellow;
+}
+#is{
+    color: blueviolet;
+}
+#wonderful{
+    color: red;
+}
+
+p1{
+    background-color: #AF55B7;
+}
+p2{
+    background-color: rgb(255, 99, 71);
+}
+p3{
+    background-color: hsla(9, 100%, 64%, 0.5);
+}
+.container{
+    background-color: yellowgreen;
+    width: 200px;
+}
+.first{
+    background-color: yellow;
+    width: 50%;
+
+}
+.second{
+    background-color: red;
+    width: 10em;
+
+}

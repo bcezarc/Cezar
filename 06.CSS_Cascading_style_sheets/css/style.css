@@ -1,0 +1,25 @@
+body{
+    background: blue;
+}
+
+p{
+    color: brown;
+
+}
+
+#first-paragraph{
+    color: green;
+}
+#second-paragraph{
+    color: violet;
+}
+.block
+{
+    width: 100px;
+    height: 50px;
+    border-thickness: 3px;
+    border-style: solid;
+    border-color: red;
+
+
+}

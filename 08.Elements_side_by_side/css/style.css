@@ -1,0 +1,36 @@
+.box{
+    background: yellow;
+    border-color: black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-right: 300px;
+    border-style: solid;
+}
+.box {
+    Declare-properties: for both divs here;
+}
+#first-div {
+    Declare-properties: for the div with "first-div";
+}
+#second-div {
+    Declare-properties: for the div with "second-div";
+}
+
+
+.p{
+    width: 80px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    display: inline;
+}
+.p1{
+    width: 80px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    display: inline;
+
+}

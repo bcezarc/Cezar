@@ -1,4 +1,4 @@
-<img alt="logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+ <img alt="logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
 
 # HTML &ndash; document structure
 

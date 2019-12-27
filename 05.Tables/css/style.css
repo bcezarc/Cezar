@@ -1,3 +1,10 @@
 table, th, td {
     border: 1px solid black;
+
+
+}
+caption{
+    font-size: 16px;
+    color: black;
+
 }

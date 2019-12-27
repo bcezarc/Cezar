@@ -1,0 +1,28 @@
+ln{
+    text-decoration-line: underline;
+    font-size: 14px;
+
+}
+
+
+p{
+    color: black;
+    font-size: 30px;
+}
+
+#more{
+    display: none;
+
+}
+button{
+    background: black;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 5px;
+}
+plus {
+    font-variant-numeric: lining-nums;
+}
+
